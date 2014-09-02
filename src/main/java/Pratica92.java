@@ -1,3 +1,6 @@
+
+import java.util.Timer;
+
 /**
  * UTFPR - Universidade Tecnológica Federal do Paraná
  * DAINF - Departamento Acadêmico de Informática
@@ -6,8 +9,12 @@
  * Template de projeto de programa Java usando Maven.
  * @author Wilson Horstmeyer Bogado <wilson@utfpr.edu.br>
  */
-public class Main {
+public class Pratica92 {
     public static void main(String[] args) {
-        System.out.println("Olá, Java!");
+        long hora = 60000;
+        
+        Timer timer = new Timer("hora-timer1");
+        Timer timer2 = new Timer("hora-loading-timer2");
+        
     }
 }
